@@ -50,3 +50,6 @@ def main():
 	create_git_am_sh(spec, specfn)
 	create_bitbake_include(spec, specfn)
 
+
+if __name__ == "__main__":
+	main()
